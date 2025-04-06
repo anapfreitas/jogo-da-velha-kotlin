@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vez do jogador X"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="36sp"
+            android:layout_margin="4dp" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/botaoReiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar Jogo"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
